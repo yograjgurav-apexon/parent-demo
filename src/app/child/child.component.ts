@@ -50,6 +50,12 @@ export class ChildComponent implements OnInit, OnDestroy, OnChanges {
     console.log({ onInIt: 'OnInit' });
   }
 
+  myFunc() {
+    console.log('Myfunc');
+  }
+
+  //yograj
+
   callParentGreet() {
     this.greetEvent.emit(this.name);
   }
